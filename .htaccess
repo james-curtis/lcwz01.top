@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteRule ^sitemap.xml /xml.php
+RewriteRule ^sitemap.html /sitemap.php
+RewriteRule ^index.html /index.php
+RewriteRule ^admin/$ /admin/index.php
+RewriteRule ^cloud/$ /cloud/index.php
+RewriteRule ^robots.txt /robots.php
+RewriteRule ^(.*).html /article.php
+RewriteRule ^(.*)/$ /article.php

@@ -1,0 +1,5 @@
+admin
+cloud
+pics
+static
+templates

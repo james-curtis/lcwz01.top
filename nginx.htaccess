@@ -1,0 +1,8 @@
+rewrite ^/sitemap.xml /xml.php;
+	rewrite ^/sitemap.html /sitemap.php;
+	rewrite ^/index.html /index.php;
+	rewrite ^/admin/$ /admin/index.php;
+	rewrite ^/cloud/$ /cloud/index.php;
+	rewrite ^/robots.txt /robots.php;
+	rewrite ^/(.*).html /article.php;
+	rewrite ^/(.*)/$ /article.php;
